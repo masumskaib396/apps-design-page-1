@@ -237,7 +237,6 @@ header.cool--header-section {
 
 @media (max-width: 374px) {
 .cool--main-item-thumb {
-    height: 60px;
     flex: 0 0 25%;
 }
 .cool--main-item-contant {
