@@ -18,6 +18,31 @@ jQuery.fn.is_exist = function(){
 
 $(function(){
 
+
+/*--------------------------------------------------------------
+Cool MENU TOGGLE JS
+--------------------------------------------------------------*/
+
+$('.menu-toggle').click(function() {
+  $('.cool--menu').toggleClass('opening');
+  $(this).toggleClass('open');
+})
+
+$('.cool--menu ul li a').on('click', function(){
+  $('.cool--menu ul li a').removeClass('active');
+  $(this).addClass('active');
+
+})
+
+/*--------------------------------------------------------------
+COOL MAP TOGGLE JS
+--------------------------------------------------------------*/
+$('.cool--map-slide').on('click', function(){
+  $('.cool--map').slideToggle();
+
+})
+
+
   
 
 });/*End document ready*/
