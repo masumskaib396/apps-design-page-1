@@ -1,0 +1,100 @@
+/*--------------------------------------------------------------============================================================
+  
+1. Typography
+
+
+
+
+[Main Stylesheet]
+
+Project:   Cool
+Version:    0.1
+Last change:    28.06.2020
+Primary use:    Cool- Simple & Clean Templatee
+
+
+[Typography]
+
+Body: 14px 'Poppins', sans-serif;
+
+
+
+/*==============================
+[Table of contents]
+
+
+
+
+
+
+=============================================================--------------------------------------------------------------*/
+
+body {
+  
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.50;
+  color: #131313;
+  background-color: #fff;
+  overflow-x: hidden;
+  position: relative;
+  word-wrap: break-word;
+  word-break: normal;
+}
+
+a, a:active, a:focus, a:active {
+  color: #222222;
+  text-decoration:none !important
+}
+input{
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+a:hover,
+a:focus,
+input:focus,
+input:hover,
+select:focus,
+select:hover,
+select:active,
+textarea:focus,
+textarea:hover,
+button:focus {
+  outline: none;
+}
+input:not([type="submit"]):not([type="radio"]):not([type="checkbox"]),
+textarea {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #999;
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+
+
+img {
+  -ms-interpolation-mode: bicubic;
+  border: 0;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+iframe {
+  width: 100%;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6{
+  font-weight: 500;
+  color: #131313;
+  font-size: 14px;
+  line-height: 1.33;
+}
+
